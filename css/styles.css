@@ -1,0 +1,35 @@
+h1{
+    font-size: 50px;
+    font-style: italic;
+    color: navy;
+    text-shadow: 5px 5px 15px gray;
+}
+form{
+    border-style: outset;
+    border-width: 5px;
+    border-color: gray;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 30px;
+}
+  body:before{
+    content:'';
+    height:100%;
+    display:inline-block;
+    vertical-align:middle;
+  }
+  button{
+    background:powderblue;
+    color:black;
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    outline:none;
+  }
+  button:hover{
+    background:gray;
+    color:white;
+  }
